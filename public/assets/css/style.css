@@ -1,0 +1,222 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+  width: 100%;
+}
+header{
+  background-color: #e7e7e7;
+  color: black;
+}
+/* Header */
+header .navbar-header p{
+    font-size: 30px;
+}
+header .navbar-nav a{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #navbar-toggle {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+
+/* End header */
+
+/* Section */
+
+.section-title h4{
+  color: #18AEAB;
+}
+.with-blue-underline {
+  position: relative;
+}
+
+.with-blue-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  margin-top: 20px;
+  left: 50%;
+  width: 10%;
+  height: 3px;
+  background-color: #007BFF; /* Ganti dengan warna biru yang diinginkan */
+  transform: translateX(-50%);
+}
+
+/* End Section */
+/* Banner */
+.banner
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+  }
+
+  #banner .uk-card .uk-card-body h3{
+    color: #18AEAB;
+  }
+  .blur-background {
+    position: relative;
+ }
+ 
+ .blur-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    filter: blur(6px); /* Sesuaikan nilai blur sesuai keinginan Anda */
+    z-index: -1;
+ }
+ 
+ .content-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.content-overlay h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.content-overlay p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+/* End Banner */
+
+/* Services */
+
+
+
+#services .uk-card-body h3{
+  color: #18AEAB;
+}
+
+/* End Services */
+
+
+/* About */
+
+#about .about-img img{
+    border-radius: 30px;
+    width: 90%;
+    height: 90%;
+}
+
+#about .about-text p{
+  font-size: 18px;
+}
+#about .about-text h2{
+  color: #128C7E;
+}
+
+/* End About */
+
+/* Whatsapp */
+.whatsapp-floating {
+  z-index: 999;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    background-color: #25D366; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .whatsapp-floating i {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+  }
+
+  .whatsapp-floating:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+  }
+
+/* End Whatsapp */
+
+/* Footer */
+.footer {
+  background-color: #e7e7e7;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .logo {
+  max-width: 100px; /* Adjust as needed */
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.bottombar {
+  background-color: #f8f8f8;
+  width: 100%;
+}
+.social-icons {
+  font-size: 34px;
+  color: black;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: black;
+}
+
+/* End footer */
+
+.promo .uk-card-body{
+  padding: 50px;
+  margin-top: 100px;
+}
+.promo .uk-card-body p{
+  font-size: 20px;
+}
+.promo .uk-card-body h2{
+  font-size: 30px;
+  color: #18AEAB;
+
+}
+@media screen and (min-width: 768px) {
+  #navbar-toggle {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo .uk-card-body{
+    margin: 0;
+  }
+}

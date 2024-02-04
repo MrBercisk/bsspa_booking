@@ -1,0 +1,1020 @@
+INFO - 2024-01-25 18:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 18:48:11 --> mysqli_sql_exception: Column 'email' cannot be null in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Auth.php(32): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Auth->register()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 18:48:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Auth.php(32): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 18:48:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2024-01-25 18:48:11\', \'2024-01-25 18:48:11\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2024-01-25 18:48:11\', \'2024-01-25 18:48:11\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Auth.php(32): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 18:48:12 --> [Caused by] mysqli_sql_exception: Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2024-01-25 18:48:11\', \'2024-01-25 18:48:11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2024-01-25 18:48:11\', \'2024-01-25 18:48:11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2024-01-25 18:48:11\', \'2024-01-25 18:48:11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Auth.php(32): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 18:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 18:50:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Auth.php(32): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Auth->register()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 18:50:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Auth.php(32): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 18:50:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (\'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 18:50:52\', \'2024-01-25 18:50:52\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (\'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 18:50:52\', \'2024-01-25 18:50:52\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Auth.php(32): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 18:50:52 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (\'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 18:50:52\', \'2024-01-25 18:50:52\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (\'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 18:50:52\', \'2024-01-25 18:50:52\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (\'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 18:50:52\', \'2024-01-25 18:50:52\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Auth.php(32): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 18:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 18:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 19:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 19:13:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Auth.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Auth->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 19:13:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Auth.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 19:13:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:13:42\', \'2024-01-25 19:13:42\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:13:42\', \'2024-01-25 19:13:42\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Auth.php(43): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 19:13:42 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:13:42\', \'2024-01-25 19:13:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:13:42\', \'2024-01-25 19:13:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:13:42\', \'2024-01-25 19:13:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Auth.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 19:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 19:14:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Auth.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Auth->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 19:14:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Auth.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 19:14:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:14:05\', \'2024-01-25 19:14:05\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:14:05\', \'2024-01-25 19:14:05\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Auth.php(43): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 19:14:06 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:14:05\', \'2024-01-25 19:14:05\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:14:05\', \'2024-01-25 19:14:05\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'tes\', \'tes@gmail.com\', \'$2y$10$WL4PjdiFUanoKwUNuun1b.1E0e6eskRMKIzXC9C6UjLlzhmLfrjYO\', \'2024-01-25 19:14:05\', \'2024-01-25 19:14:05\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Auth.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 19:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 20:25:06 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 SYSTEMPATH\Validation\Validation.php(498): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->withRequest(Object(CodeIgniter\HTTP\IncomingRequest))
+ 4 APPPATH\Controllers\Massage.php(24): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->create()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:36:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:36:34 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:38:03 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+ERROR - 2024-01-25 20:39:25 --> mysqli_sql_exception: Column 'jenis_massage' cannot be null in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Massage.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 20:39:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'jenis_massage' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (:jenis_massage:, :harga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:39:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'jenis_massage' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (:jenis_massage:, :harga:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:39:26 --> [Caused by] mysqli_sql_exception: Column 'jenis_massage' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (:jenis_massage:, :harga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+ERROR - 2024-01-25 20:39:50 --> mysqli_sql_exception: Column 'jenis_massage' cannot be null in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Massage.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 20:39:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'jenis_massage' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (:jenis_massage:, :harga:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:39:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'jenis_massage' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (:jenis_massage:, :harga:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:39:50 --> [Caused by] mysqli_sql_exception: Column 'jenis_massage' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `massage_list` (`jenis_massage`, `harga`) VALUES (:jenis_massage:, :harga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:40:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:41:38 --> Error: Call to a member function getVar() on null
+in APPPATH\Controllers\Massage.php on line 57.
+ 1 APPPATH\Controllers\Massage.php(62): App\Controllers\Massage->update(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:42:10 --> Error: Call to a member function getPost() on null
+in APPPATH\Controllers\Massage.php on line 57.
+ 1 APPPATH\Controllers\Massage.php(62): App\Controllers\Massage->update(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:42:17 --> Error: Call to a member function getPost() on null
+in APPPATH\Controllers\Massage.php on line 57.
+ 1 APPPATH\Controllers\Massage.php(62): App\Controllers\Massage->update(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:43:48 --> Error: Call to a member function getPost() on null
+in APPPATH\Controllers\Massage.php on line 57.
+ 1 APPPATH\Controllers\Massage.php(62): App\Controllers\Massage->update(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:45:18 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:46:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:46:12 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:58:43 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:59:04 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 20:59:27 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Massage.php(73): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Massage->update('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Massage))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-25 21:19:25 --> [DEPRECATED] openssl_encrypt(): Passing null to parameter #1 ($data) of type string is deprecated in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 97.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(97): openssl_encrypt(null, 'AES-256-CTR', 'ìzùÏ©ºh É¦K¯|QHñ "ÁNçIö·ß³$¶÷cBîCŽ;êEÿX¬˜KËø~òÍî8luXêÇ’í', 1, '¡¿’†m™7ŸxÐdÛ')
+ 2 APPPATH\Controllers\Login.php(66): CodeIgniter\Encryption\Handlers\OpenSSLHandler->encrypt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:19:25 --> ErrorException: Undefined property: App\Controllers\Login::$M_user
+in APPPATH\Controllers\Login.php on line 70.
+ 1 APPPATH\Controllers\Login.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$M_user', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Login.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-25 21:22:27 --> [DEPRECATED] openssl_encrypt(): Passing null to parameter #1 ($data) of type string is deprecated in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 97.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(97): openssl_encrypt(null, 'AES-256-CTR', 'ìzùÏ©ºh É¦K¯|QHñ "ÁNçIö·ß³$¶÷cBîCŽ;êEÿX¬˜KËø~òÍî8luXêÇ’í', 1, 'èðÏ' . "\0" . 'V7 
+ã—‘ŒÚj')
+ 2 APPPATH\Controllers\Login.php(66): CodeIgniter\Encryption\Handlers\OpenSSLHandler->encrypt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+ERROR - 2024-01-25 21:22:27 --> mysqli_sql_exception: Column 'nama' cannot be null in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:22:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:22:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'d0WQ8CtVSkH252WM0pI91ktyltkzDJ/6I55pNH5N2477TQK7PwjTkMZ1J0eSgOlPX9oCvxf2eK/tOG0fKy5kGOjwzwBWNyAK45cGkYzaagU=\', \'2024-01-25 21:22:27\', \'2024-01-25 21:22:27\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'d0WQ8CtVSkH252WM0pI91ktyltkzDJ/6I55pNH5N2477TQK7PwjTkMZ1J0eSgOlPX9oCvxf2eK/tOG0fKy5kGOjwzwBWNyAK45cGkYzaagU=\', \'2024-01-25 21:22:27\', \'2024-01-25 21:22:27\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:22:27 --> [Caused by] mysqli_sql_exception: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'d0WQ8CtVSkH252WM0pI91ktyltkzDJ/6I55pNH5N2477TQK7PwjTkMZ1J0eSgOlPX9oCvxf2eK/tOG0fKy5kGOjwzwBWNyAK45cGkYzaagU=\', \'2024-01-25 21:22:27\', \'2024-01-25 21:22:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'d0WQ8CtVSkH252WM0pI91ktyltkzDJ/6I55pNH5N2477TQK7PwjTkMZ1J0eSgOlPX9oCvxf2eK/tOG0fKy5kGOjwzwBWNyAK45cGkYzaagU=\', \'2024-01-25 21:22:27\', \'2024-01-25 21:22:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'d0WQ8CtVSkH252WM0pI91ktyltkzDJ/6I55pNH5N2477TQK7PwjTkMZ1J0eSgOlPX9oCvxf2eK/tOG0fKy5kGOjwzwBWNyAK45cGkYzaagU=\', \'2024-01-25 21:22:27\', \'2024-01-25 21:22:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-25 21:25:21 --> [DEPRECATED] openssl_encrypt(): Passing null to parameter #1 ($data) of type string is deprecated in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 97.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(97): openssl_encrypt(null, 'AES-256-CTR', 'ìzùÏ©ºh É¦K¯|QHñ "ÁNçIö·ß³$¶÷cBîCŽ;êEÿX¬˜KËø~òÍî8luXêÇ’í', 1, 'i¹§ŒwX' . "\0" . '›á`6L¡')
+ 2 APPPATH\Controllers\Login.php(66): CodeIgniter\Encryption\Handlers\OpenSSLHandler->encrypt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+ERROR - 2024-01-25 21:25:21 --> mysqli_sql_exception: Column 'email' cannot be null in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:25:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:25:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, \'hw02pmqrr0KSBL1/bwnsB2l4RzW9ovw25c/ifW8S5e37orWe3XtBTJJaMJ4ugl4y7BvZ87X6FT0f98jNa/P+JWkIuaeMdxFYABab4WA2TKE=\', \'2024-01-25 21:25:21\', \'2024-01-25 21:25:21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, \'hw02pmqrr0KSBL1/bwnsB2l4RzW9ovw25c/ifW8S5e37orWe3XtBTJJaMJ4ugl4y7BvZ87X6FT0f98jNa/P+JWkIuaeMdxFYABab4WA2TKE=\', \'2024-01-25 21:25:21\', \'2024-01-25 21:25:21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:25:21 --> [Caused by] mysqli_sql_exception: Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, \'hw02pmqrr0KSBL1/bwnsB2l4RzW9ovw25c/ifW8S5e37orWe3XtBTJJaMJ4ugl4y7BvZ87X6FT0f98jNa/P+JWkIuaeMdxFYABab4WA2TKE=\', \'2024-01-25 21:25:21\', \'2024-01-25 21:25:21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, \'hw02pmqrr0KSBL1/bwnsB2l4RzW9ovw25c/ifW8S5e37orWe3XtBTJJaMJ4ugl4y7BvZ87X6FT0f98jNa/P+JWkIuaeMdxFYABab4WA2TKE=\', \'2024-01-25 21:25:21\', \'2024-01-25 21:25:21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (NULL, \'hw02pmqrr0KSBL1/bwnsB2l4RzW9ovw25c/ifW8S5e37orWe3XtBTJJaMJ4ugl4y7BvZ87X6FT0f98jNa/P+JWkIuaeMdxFYABab4WA2TKE=\', \'2024-01-25 21:25:21\', \'2024-01-25 21:25:21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `password`, `created_at`, `updated_at`) VALUES (:email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 21:26:12 --> ErrorException: Undefined variable $email
+in APPPATH\Controllers\Login.php on line 60.
+ 1 APPPATH\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Login.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 21:27:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(67): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:27:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:27:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'h4pMTAc0BV8lv1yUVa5tTofu0MT6DpPfc1cHmgfKeC6GNcXf4iqcqDnLqFUBLaUwVBj/aWs2ZA+b33Wfb7wjO4Io2aU/4Pga6brW4aaQMnyoY16PT3cjpNxFMQ==\', \'2024-01-25 21:27:55\', \'2024-01-25 21:27:55\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'h4pMTAc0BV8lv1yUVa5tTofu0MT6DpPfc1cHmgfKeC6GNcXf4iqcqDnLqFUBLaUwVBj/aWs2ZA+b33Wfb7wjO4Io2aU/4Pga6brW4aaQMnyoY16PT3cjpNxFMQ==\', \'2024-01-25 21:27:55\', \'2024-01-25 21:27:55\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:27:55 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'h4pMTAc0BV8lv1yUVa5tTofu0MT6DpPfc1cHmgfKeC6GNcXf4iqcqDnLqFUBLaUwVBj/aWs2ZA+b33Wfb7wjO4Io2aU/4Pga6brW4aaQMnyoY16PT3cjpNxFMQ==\', \'2024-01-25 21:27:55\', \'2024-01-25 21:27:55\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'h4pMTAc0BV8lv1yUVa5tTofu0MT6DpPfc1cHmgfKeC6GNcXf4iqcqDnLqFUBLaUwVBj/aWs2ZA+b33Wfb7wjO4Io2aU/4Pga6brW4aaQMnyoY16PT3cjpNxFMQ==\', \'2024-01-25 21:27:55\', \'2024-01-25 21:27:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'h4pMTAc0BV8lv1yUVa5tTofu0MT6DpPfc1cHmgfKeC6GNcXf4iqcqDnLqFUBLaUwVBj/aWs2ZA+b33Wfb7wjO4Io2aU/4Pga6brW4aaQMnyoY16PT3cjpNxFMQ==\', \'2024-01-25 21:27:55\', \'2024-01-25 21:27:55\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 21:29:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`)) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(67): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:29:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:29:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'dUQ8HYrJMXr0/ejC/aTdt8W4eHkCHNmgcMQuw9movosv8IBPRzwqvbX2O55sBgAvAK8QOe6D4DQjcBXxFA39D3eBCR7YF8TBEF2vI6ZBlFHt+sdasp6j46Db9g==\', \'2024-01-25 21:29:03\', \'2024-01-25 21:29:03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'dUQ8HYrJMXr0/ejC/aTdt8W4eHkCHNmgcMQuw9movosv8IBPRzwqvbX2O55sBgAvAK8QOe6D4DQjcBXxFA39D3eBCR7YF8TBEF2vI6ZBlFHt+sdasp6j46Db9g==\', \'2024-01-25 21:29:03\', \'2024-01-25 21:29:03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:29:03 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'dUQ8HYrJMXr0/ejC/aTdt8W4eHkCHNmgcMQuw9movosv8IBPRzwqvbX2O55sBgAvAK8QOe6D4DQjcBXxFA39D3eBCR7YF8TBEF2vI6ZBlFHt+sdasp6j46Db9g==\', \'2024-01-25 21:29:03\', \'2024-01-25 21:29:03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'dUQ8HYrJMXr0/ejC/aTdt8W4eHkCHNmgcMQuw9movosv8IBPRzwqvbX2O55sBgAvAK8QOe6D4DQjcBXxFA39D3eBCR7YF8TBEF2vI6ZBlFHt+sdasp6j46Db9g==\', \'2024-01-25 21:29:03\', \'2024-01-25 21:29:03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'dUQ8HYrJMXr0/ejC/aTdt8W4eHkCHNmgcMQuw9movosv8IBPRzwqvbX2O55sBgAvAK8QOe6D4DQjcBXxFA39D3eBCR7YF8TBEF2vI6ZBlFHt+sdasp6j46Db9g==\', \'2024-01-25 21:29:03\', \'2024-01-25 21:29:03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 21:31:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`)) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(67): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:31:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:31:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'qKLXFpfm4FGVHI3Hk9BkjEZ0MGD6Lh94h6REKLaEv4zA0d/Ku7ivsbbJfn+R6M54npbJJk7OsJMJmmGHt3CFEKHzl9zrFKG51FFBIZSJiiwMYXtHMKUUPrNJzg==\', \'2024-01-25 21:31:36\', \'2024-01-25 21:31:36\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'qKLXFpfm4FGVHI3Hk9BkjEZ0MGD6Lh94h6REKLaEv4zA0d/Ku7ivsbbJfn+R6M54npbJJk7OsJMJmmGHt3CFEKHzl9zrFKG51FFBIZSJiiwMYXtHMKUUPrNJzg==\', \'2024-01-25 21:31:36\', \'2024-01-25 21:31:36\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:31:36 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'qKLXFpfm4FGVHI3Hk9BkjEZ0MGD6Lh94h6REKLaEv4zA0d/Ku7ivsbbJfn+R6M54npbJJk7OsJMJmmGHt3CFEKHzl9zrFKG51FFBIZSJiiwMYXtHMKUUPrNJzg==\', \'2024-01-25 21:31:36\', \'2024-01-25 21:31:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'qKLXFpfm4FGVHI3Hk9BkjEZ0MGD6Lh94h6REKLaEv4zA0d/Ku7ivsbbJfn+R6M54npbJJk7OsJMJmmGHt3CFEKHzl9zrFKG51FFBIZSJiiwMYXtHMKUUPrNJzg==\', \'2024-01-25 21:31:36\', \'2024-01-25 21:31:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'qKLXFpfm4FGVHI3Hk9BkjEZ0MGD6Lh94h6REKLaEv4zA0d/Ku7ivsbbJfn+R6M54npbJJk7OsJMJmmGHt3CFEKHzl9zrFKG51FFBIZSJiiwMYXtHMKUUPrNJzg==\', \'2024-01-25 21:31:36\', \'2024-01-25 21:31:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 21:36:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(67): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:36:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:36:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'0Ho6lCLwPzbS7BXR9NeUGbLeyD1Dm9J0y94kZx51SVLZI5aO1w89tijXscg5t1yUeeD7N73oLtLgGtKvUR7hPq+RySot8GLPwxuh27tzoYmXHvYr8Qni+oTR0Q==\', \'2024-01-25 21:36:01\', \'2024-01-25 21:36:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'0Ho6lCLwPzbS7BXR9NeUGbLeyD1Dm9J0y94kZx51SVLZI5aO1w89tijXscg5t1yUeeD7N73oLtLgGtKvUR7hPq+RySot8GLPwxuh27tzoYmXHvYr8Qni+oTR0Q==\', \'2024-01-25 21:36:01\', \'2024-01-25 21:36:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:36:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'0Ho6lCLwPzbS7BXR9NeUGbLeyD1Dm9J0y94kZx51SVLZI5aO1w89tijXscg5t1yUeeD7N73oLtLgGtKvUR7hPq+RySot8GLPwxuh27tzoYmXHvYr8Qni+oTR0Q==\', \'2024-01-25 21:36:01\', \'2024-01-25 21:36:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'0Ho6lCLwPzbS7BXR9NeUGbLeyD1Dm9J0y94kZx51SVLZI5aO1w89tijXscg5t1yUeeD7N73oLtLgGtKvUR7hPq+RySot8GLPwxuh27tzoYmXHvYr8Qni+oTR0Q==\', \'2024-01-25 21:36:01\', \'2024-01-25 21:36:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'0Ho6lCLwPzbS7BXR9NeUGbLeyD1Dm9J0y94kZx51SVLZI5aO1w89tijXscg5t1yUeeD7N73oLtLgGtKvUR7hPq+RySot8GLPwxuh27tzoYmXHvYr8Qni+oTR0Q==\', \'2024-01-25 21:36:01\', \'2024-01-25 21:36:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-25 21:39:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`)) in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Login.php(67): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Login->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-01-25 21:39:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:39:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'rrYZHzlmAtzcZe+RJkq/mbq2PHFQ/nOn9doe8vjUT7OBlxnbmiYDHQj58BjV5h1fHFKeanYXDyIoeL683WX6ItmRdLZ5uP5N+QpCfHAmHNAXhWAwcXi4wcxU0g==\', \'2024-01-25 21:39:34\', \'2024-01-25 21:39:34\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'rrYZHzlmAtzcZe+RJkq/mbq2PHFQ/nOn9doe8vjUT7OBlxnbmiYDHQj58BjV5h1fHFKeanYXDyIoeL683WX6ItmRdLZ5uP5N+QpCfHAmHNAXhWAwcXi4wcxU0g==\', \'2024-01-25 21:39:34\', \'2024-01-25 21:39:34\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-01-25 21:39:34 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`massage`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `user_role` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'rrYZHzlmAtzcZe+RJkq/mbq2PHFQ/nOn9doe8vjUT7OBlxnbmiYDHQj58BjV5h1fHFKeanYXDyIoeL683WX6ItmRdLZ5uP5N+QpCfHAmHNAXhWAwcXi4wcxU0g==\', \'2024-01-25 21:39:34\', \'2024-01-25 21:39:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'rrYZHzlmAtzcZe+RJkq/mbq2PHFQ/nOn9doe8vjUT7OBlxnbmiYDHQj58BjV5h1fHFKeanYXDyIoeL683WX6ItmRdLZ5uP5N+QpCfHAmHNAXhWAwcXi4wcxU0g==\', \'2024-01-25 21:39:34\', \'2024-01-25 21:39:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'John Doe\', \'john@example.com\', \'rrYZHzlmAtzcZe+RJkq/mbq2PHFQ/nOn9doe8vjUT7OBlxnbmiYDHQj58BjV5h1fHFKeanYXDyIoeL683WX6ItmRdLZ5uP5N+QpCfHAmHNAXhWAwcXi4wcxU0g==\', \'2024-01-25 21:39:34\', \'2024-01-25 21:39:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama`, `email`, `password`, `created_at`, `updated_at`) VALUES (:nama:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-01-25 21:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 21:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 22:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

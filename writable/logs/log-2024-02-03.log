@@ -1,0 +1,1572 @@
+INFO - 2024-02-03 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 02:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 04:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 05:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 06:14:27 --> ErrorException: Undefined variable $booking
+in APPPATH\Views\v_admin\transaksi.php on line 48.
+ 1 APPPATH\Views\v_admin\transaksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(74): view('v_admin/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 06:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 06:15:08 --> ErrorException: Undefined variable $user_id
+in APPPATH\Controllers\Transaksi.php on line 67.
+ 1 APPPATH\Controllers\Transaksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 06:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 06:34:08 --> ErrorException: Undefined array key "alamat"
+in APPPATH\Views\v_admin\transaksi.php on line 62.
+ 1 APPPATH\Views\v_admin\transaksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(72): view('v_admin/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 06:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 06:34:30 --> ErrorException: Undefined array key "tanggal_booking"
+in APPPATH\Views\v_admin\transaksi.php on line 62.
+ 1 APPPATH\Views\v_admin\transaksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_booking"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(72): view('v_admin/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 06:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 06:34:50 --> ErrorException: Undefined array key "status_booking"
+in APPPATH\Views\v_admin\transaksi.php on line 64.
+ 1 APPPATH\Views\v_admin\transaksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_booking"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(72): view('v_admin/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 06:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 06:48:01 --> ErrorException: Undefined variable $b
+in APPPATH\Views\v_admin\transaksi.php on line 69.
+ 1 APPPATH\Views\v_admin\transaksi.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $b', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(73): view('v_admin/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 06:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 06:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:45:20 --> ErrorException: Undefined array key "terapis_id"
+in APPPATH\Controllers\Transaksi.php on line 123.
+ 1 APPPATH\Controllers\Transaksi.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "terapis_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:50:27 --> ErrorException: Undefined variable $booking
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(144): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:51:28 --> ErrorException: Undefined variable $confirm
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $confirm', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(144): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:53:31 --> ErrorException: Undefined array key "terapis_id"
+in APPPATH\Controllers\Transaksi.php on line 124.
+ 1 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "terapis_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:54:01 --> ErrorException: Undefined variable $terapis
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $terapis', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(126): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 07:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 07:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 07:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 07:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:57:47 --> ErrorException: Undefined variable $confirm
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $confirm', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(125): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:58:00 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_admin\prosestransaksi.php on line 42.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 4 APPPATH\Controllers\Transaksi.php(125): view('v_admin/prosestransaksi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 07:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 07:59:41 --> ErrorException: Undefined array key "nama"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 40.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(125): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:00:50 --> ErrorException: Undefined array key "jenis_massage"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 40.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_massage"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(125): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:02:05 --> ErrorException: Undefined array key "jenis_massage"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 40.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_massage"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(125): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:05:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_admin\prosestransaksi.php on line 40.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(126): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:05:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_admin\prosestransaksi.php on line 40.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(126): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:05:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_admin\prosestransaksi.php on line 40.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(126): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:16:42 --> ErrorException: Undefined variable $diskon
+in APPPATH\Views\v_admin\prosestransaksi.php on line 44.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diskon', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(126): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:16:46 --> ErrorException: Undefined variable $diskon
+in APPPATH\Views\v_admin\prosestransaksi.php on line 44.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diskon', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(126): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:36:30 --> ErrorException: Undefined variable $harga
+in APPPATH\Views\v_admin\prosestransaksi.php on line 44.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $harga', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(133): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:37:23 --> ErrorException: Undefined array key "harga"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 44.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(133): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:37:44 --> ErrorException: Undefined variable $confirm
+in APPPATH\Views\v_admin\prosestransaksi.php on line 44.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $confirm', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(133): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:38:09 --> ErrorException: Undefined variable $total_bayar
+in APPPATH\Views\v_admin\prosestransaksi.php on line 69.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_bayar', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(130): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-03 08:54:14 --> mysqli_sql_exception: Unknown column 'diskon' in 'field list' in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\spamassage\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\spamassage\app\Controllers\Transaksi.php(152): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Transaksi->create()
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#10 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-02-03 08:54:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'diskon' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (:tanggal_transaksi:, :keterangan:, :diskon:, :booking_id:, :terapis_id:, :total_bayar:, :status_transaksi:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Transaksi.php(152): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-02-03 08:54:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'diskon' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (NULL, \'Silahkan untuk melakukan pembayaran ke rekening yang tersedia.\', \'20%\', NULL, NULL, \'120000.00\', \'Pending\', \'2024-02-03 08:54:14\', \'2024-02-03 08:54:14\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (NULL, \'Silahkan untuk melakukan pembayaran ke rekening yang tersedia.\', \'20%\', NULL, NULL, \'120000.00\', \'Pending\', \'2024-02-03 08:54:14\', \'2024-02-03 08:54:14\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (:tanggal_transaksi:, :keterangan:, :diskon:, :booking_id:, :terapis_id:, :total_bayar:, :status_transaksi:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Transaksi.php(152): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-02-03 08:54:14 --> [Caused by] mysqli_sql_exception: Unknown column 'diskon' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (NULL, \'Silahkan untuk melakukan pembayaran ke rekening yang tersedia.\', \'20%\', NULL, NULL, \'120000.00\', \'Pending\', \'2024-02-03 08:54:14\', \'2024-02-03 08:54:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (NULL, \'Silahkan untuk melakukan pembayaran ke rekening yang tersedia.\', \'20%\', NULL, NULL, \'120000.00\', \'Pending\', \'2024-02-03 08:54:14\', \'2024-02-03 08:54:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (NULL, \'Silahkan untuk melakukan pembayaran ke rekening yang tersedia.\', \'20%\', NULL, NULL, \'120000.00\', \'Pending\', \'2024-02-03 08:54:14\', \'2024-02-03 08:54:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`tanggal_transaksi`, `keterangan`, `diskon`, `booking_id`, `terapis_id`, `total_bayar`, `status_transaksi`, `created_at`, `updated_at`) VALUES (:tanggal_transaksi:, :keterangan:, :diskon:, :booking_id:, :terapis_id:, :total_bayar:, :status_transaksi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Transaksi.php(152): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 08:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 08:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 08:58:56 --> ErrorException: Undefined array key "terapis_id"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "terapis_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(130): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:05:35 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(130): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:05:50 --> ErrorException: Undefined variable $booking_id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(130): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:06:03 --> ErrorException: Undefined variable $terapis_id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 41.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $terapis_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(130): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:09:54 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(130): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:13:28 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Controllers\Transaksi.php on line 125.
+ 1 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:13:45 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Controllers\Transaksi.php on line 125.
+ 1 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:19:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Transaksi.php on line 103.
+ 1 APPPATH\Controllers\Transaksi.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:19:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(133): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:35:46 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(129): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:43:35 --> ErrorException: Undefined variable $booking_id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(131): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:44:35 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Controllers\Transaksi.php on line 108.
+ 1 APPPATH\Controllers\Transaksi.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:44:47 --> ErrorException: Undefined variable $booking_id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(133): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:45:03 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(133): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:45:54 --> ErrorException: Undefined variable $booking_id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:46:30 --> ErrorException: Undefined array key "booking_id"
+in APPPATH\Controllers\Transaksi.php on line 118.
+ 1 APPPATH\Controllers\Transaksi.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "booking_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Transaksi.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:47:05 --> ErrorException: Undefined variable $booking_id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking_id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:47:19 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:47:19 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:47:20 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:48:30 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:48:30 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:48:31 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:51:01 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:51:02 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:51:26 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:53:19 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:53:19 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:53:58 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 09:53:58 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(134): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 09:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 09:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:04:56 --> BadMethodCallException: Call to undefined method App\Models\BookingModel::leftJoin
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Transaksi.php(55): CodeIgniter\Model->__call('leftJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:09:14 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:09:14 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:37:13 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:37:14 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:41:05 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:41:05 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:43:55 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 10:43:55 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('assets', 'img-admin', 'faces', 'admin.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 10:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 10:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 11:25:46 --> ErrorException: Undefined variable $user
+in APPPATH\Views\templates_member\header.php on line 47.
+ 1 APPPATH\Views\templates_member\header.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 5 APPPATH\Views\v_member\proses.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\proses.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/proses', [], true)
+ 9 APPPATH\Controllers\Proses.php(77): view('v_member/proses', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 11:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 11:52:11 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 11:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 11:52:31 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 11:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 11:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 12:03:18 --> ErrorException: Undefined array key "diskon"
+in APPPATH\Views\v_member\bayar.php on line 100.
+ 1 APPPATH\Views\v_member\bayar.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 5 APPPATH\Controllers\Proses.php(109): view('v_member/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 12:04:30 --> ErrorException: Undefined array key "diskon"
+in APPPATH\Views\v_member\bayar.php on line 100.
+ 1 APPPATH\Views\v_member\bayar.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 5 APPPATH\Controllers\Proses.php(109): view('v_member/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-03 12:04:56 --> mysqli_sql_exception: Unknown column 'booking.diskon' in 'field list' in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `transak...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transak...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transak...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transak...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\spamassage\app\Controllers\Proses.php(99): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-03 12:04:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'booking.diskon' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = :user.id:
+AND `status_booking` = :status_booking:', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Proses.php(99): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-02-03 12:04:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'booking.diskon' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = :user.id:
+AND `status_booking` = :status_booking:', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Proses.php(99): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-02-03 12:04:56 --> [Caused by] mysqli_sql_exception: Unknown column 'booking.diskon' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = :user.id:
+AND `status_booking` = :status_booking:', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Proses.php(99): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 12:06:03 --> ErrorException: Undefined array key "diskon"
+in APPPATH\Controllers\Proses.php on line 100.
+ 1 APPPATH\Controllers\Proses.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Proses.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 12:07:50 --> ErrorException: Undefined array key "massage_id"
+in APPPATH\Controllers\Proses.php on line 103.
+ 1 APPPATH\Controllers\Proses.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "massage_id"', 'D:\\xampp\\htdocs\\spamassage\\app\\Controllers\\Proses.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-03 12:16:42 --> mysqli_sql_exception: Unknown column 'booking.diskon' in 'field list' in D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\spamassage\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `transak...', 0)
+#1 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transak...')
+#2 D:\xampp\htdocs\spamassage\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transak...')
+#3 D:\xampp\htdocs\spamassage\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transak...', Array, false)
+#4 D:\xampp\htdocs\spamassage\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\spamassage\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\spamassage\app\Controllers\Proses.php(60): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\Proses->index()
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+#9 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-03 12:16:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'booking.diskon' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = :user.id:
+AND `status_booking` = :status_booking:', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Proses.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-02-03 12:16:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'booking.diskon' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = :user.id:
+AND `status_booking` = :status_booking:', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Proses.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+CRITICAL - 2024-02-03 12:16:42 --> [Caused by] mysqli_sql_exception: Unknown column 'booking.diskon' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = \'2\'
+AND `status_booking` = \'Selesai\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.*, `booking`.`nomor_booking`, `booking`.`tanggal_booking`, `booking`.`diskon`, `user`.`nama`, `user`.`jenis_kelamin`, `massage_list`.`jenis_massage`, `massage_list`.`harga`, `terapis`.`nama_terapis`, `terapis`.`no_hp`
+FROM `transaksi`
+JOIN `booking` ON `booking`.`id` = `transaksi`.`booking_id`
+JOIN `user` ON `user`.`id` = `booking`.`user_id`
+JOIN `massage_list` ON `massage_list`.`id` = `booking`.`massage_id`
+JOIN `terapis` ON `terapis`.`id` = `transaksi`.`terapis_id`
+WHERE `user`.`id` = :user.id:
+AND `status_booking` = :status_booking:', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Proses.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 12:20:07 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-03 12:21:35 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(138): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-03 12:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-03 12:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
