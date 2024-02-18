@@ -10,7 +10,7 @@
 <div class="main-panel">
 
     <div class="content-wrapper">
-        
+
         <div class="page-header">
             <h3 class="page-title">
                 <span class="page-title-icon bg-gradient-primary text-white me-2">
@@ -27,10 +27,12 @@
         </div>
         <div class="uk-alert-primary" uk-alert>
             <a href class="uk-alert-close" uk-close></a>
-            <h5>Petunjuk Penggunaan : Klik di mana saja pada kolom tabel untuk merubah data yang di pilih.</h5>
+            <h5>Silahkan untuk mengupdate data booking member.</h5>
+
         </div>
         <div class="row">
             <div class="col-12 grid-margin">
+                
                 <div class="card">
                     <div class="card-body">
                         <div class="uk-overflow-auto">
@@ -65,7 +67,17 @@
                                             <a class="uk-link-reset" href="<?= base_url('transaksi/show/' . $book['id']); ?>"><?= $book['jenis_massage']; ?></a>
                                         </td>
                                         <td class="uk-table-link">
-                                            <a class="uk-link-reset" href="<?= base_url('transaksi/show/' . $book['id']); ?>"><?= $book['status_booking']; ?></a>
+                                            <a class="uk-link-reset" href="<?= base_url('transaksi/show/' . $book['id']); ?>">
+
+                                                <?php if ($book['status_booking'] == 'Selesai') : ?>
+                                                    <span class="badge bg-success"><?= $book['status_booking']; ?></span>
+                                                <?php elseif ($book['status_booking'] == 'Pending') : ?>
+                                                    <span class="badge bg-warning"><?= $book['status_booking']; ?></span>
+                                                <?php elseif ($book['status_booking'] == 'Belum Selesai') : ?>
+                                                    <span class="badge bg-danger"><?= $book['status_booking']; ?></span>
+                                                <?php else : ?>
+                                                    <?= $book['status_booking']; ?>
+                                                <?php endif; ?>
                                         </td>
                                         </tr>
                                     <?php endforeach; ?>

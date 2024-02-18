@@ -33,15 +33,14 @@ class Terapis extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
-
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-        $data['title'] = "BSpa | Data Terapis";
-
         $terapis = $this->terapis->findAll();
 
-        // Pass the data to the view
-        $data['terapis'] = $terapis;
+        $data = [
+            'nama' =>  $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'title' => "BSpa | Data Terapis",
+            'terapis' => $terapis,
+        ];
 
         return view('v_admin/dataterapis', $data);
     }
@@ -119,7 +118,7 @@ class Terapis extends ResourceController
                 'alamat' => $this->request->getVar('alamat'),
                 'no_hp' => $this->request->getVar('no_hp'),
             ];
-            
+
             // Melakukan update data
             $terapis = $this->terapis->save($data);
 

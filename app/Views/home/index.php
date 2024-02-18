@@ -90,8 +90,8 @@
                </li>
             </ul>
 
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+            <a class="uk-position-center-left uk-position-small " style="color: black;" href uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small " style="color: black;" href uk-slidenav-next uk-slider-item="next"></a>
 
          </div>
          <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
@@ -178,7 +178,7 @@
       </div>
    </section>
 
-   <section class="promo">
+   <section id="promo" class="promo">
       <div class="uk-container-medium uk-padding-large " uk-scrollspy="cls: uk-animation-slide-top; delay: 300;">
          <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
             <div class="uk-card-media-left uk-cover-container">

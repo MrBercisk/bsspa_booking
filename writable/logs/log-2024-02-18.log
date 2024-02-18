@@ -1,0 +1,1150 @@
+INFO - 2024-02-18 03:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 03:48:40 --> ErrorException: Undefined variable $email
+in APPPATH\Views\templates_admin\header.php on line 48.
+ 1 APPPATH\Views\templates_admin\header.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_admin\\header.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_admin/header', null, true)
+ 5 APPPATH\Views\v_admin\dataterapis.php(6): CodeIgniter\View\View->include('templates_admin/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\dataterapis.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/dataterapis', [], true)
+ 9 APPPATH\Controllers\Terapis.php(45): view('v_admin/dataterapis', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Terapis->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Terapis))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 03:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 03:49:01 --> ErrorException: Undefined variable $title
+in APPPATH\Views\templates_admin\main.php on line 8.
+ 1 APPPATH\Views\templates_admin\main.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_admin\\main.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_admin\\main.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('templates_admin/main', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/dataterapis', [], true)
+ 6 APPPATH\Controllers\Terapis.php(45): view('v_admin/dataterapis', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Terapis->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Terapis))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 03:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 03:53:32 --> Error: Call to a member function getAllBookingData() on null
+in APPPATH\Controllers\DataBooking.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataBooking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataBooking))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 03:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 04:50:49 --> ErrorException: Undefined array key "total"
+in APPPATH\Views\v_admin\cetaktransaksi.php on line 72.
+ 1 APPPATH\Views\v_admin\cetaktransaksi.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\cetaktransaksi.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\cetaktransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/cetaktransaksi', [], true)
+ 5 APPPATH\Controllers\Laporan.php(178): view('v_admin/cetaktransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Laporan->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 04:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 04:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 05:56:06 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(101): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('$1')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 05:57:11 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(100): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('$1')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 05:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 05:57:33 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(104): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('$1')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 05:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 05:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:00:36 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(104): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('8')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:04:43 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('8')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:04:52 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('8')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:06:23 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('8')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:06:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 4 APPPATH\Views\v_member\konfirmasi.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 8 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('8')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:08:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:08:04 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'faces', 'user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:08:05 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:08:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:08:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'faces', 'user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:08:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(119): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:09:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:09:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'faces', 'user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:09:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:10:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:10:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'faces', 'user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:10:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(112): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:10:17 --> ErrorException: Undefined variable $email
+in APPPATH\Views\templates_member\header.php on line 49.
+ 1 APPPATH\Views\templates_member\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php', 49)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 5 APPPATH\Views\v_member\booking.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\booking.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/booking', [], true)
+ 9 APPPATH\Controllers\Booking.php(61): view('v_member/booking', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:12:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(104): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:12:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(104): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'faces', 'user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:12:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(104): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:13:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(104): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:14:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(103): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:14:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(103): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'faces', 'user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:14:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\v_member\konfirmasi.php on line 33.
+ 1 APPPATH\Views\v_member\konfirmasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Booking.php(103): view('v_member/konfirmasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->show('assets', 'img-admin', 'logo-mini.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:14:55 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(103): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 06:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 06:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 06:51:54 --> ErrorException: Undefined variable $notif
+in APPPATH\Views\templates_member\header.php on line 71.
+ 1 APPPATH\Views\templates_member\header.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notif', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 5 APPPATH\Views\v_member\booking.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\booking.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/booking', [], true)
+ 9 APPPATH\Controllers\Booking.php(53): view('v_member/booking', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:14:25 --> BadMethodCallException: Call to undefined method App\Models\TransaksiModel::count
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Models\TransaksiModel.php(82): CodeIgniter\Model->__call('count', [...])
+ 2 APPPATH\Controllers\Member.php(46): App\Models\TransaksiModel->getTransaksiBaru('2')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Member->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:16:39 --> ErrorException: Undefined variable $notif
+in APPPATH\Views\templates_member\header.php on line 70.
+ 1 APPPATH\Views\templates_member\header.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notif', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php', 70)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 5 APPPATH\Views\v_member\index.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/index', [], true)
+ 9 APPPATH\Controllers\Member.php(53): view('v_member/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Member->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:17:06 --> ErrorException: Undefined variable $chat_baru
+in APPPATH\Views\templates_member\header.php on line 76.
+ 1 APPPATH\Views\templates_member\header.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chat_baru', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php', 76)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 5 APPPATH\Views\v_member\index.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/index', [], true)
+ 9 APPPATH\Controllers\Member.php(53): view('v_member/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Member->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:17:24 --> ErrorException: Undefined variable $transaksiBaru
+in APPPATH\Views\templates_member\header.php on line 76.
+ 1 APPPATH\Views\templates_member\header.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksiBaru', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php', 76)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\templates_member\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('templates_member/header', null, true)
+ 5 APPPATH\Views\v_member\index.php(6): CodeIgniter\View\View->include('templates_member/header')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/index', [], true)
+ 9 APPPATH\Controllers\Member.php(53): view('v_member/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Member->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:27:11 --> ErrorException: Undefined variable $id
+in APPPATH\Views\v_admin\prosestransaksi.php on line 38.
+ 1 APPPATH\Views\v_admin\prosestransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_admin\\prosestransaksi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_admin/prosestransaksi', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(104): view('v_admin/prosestransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi->show('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:32:01 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:33:01 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:33:24 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 91.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:33:56 --> ErrorException: Undefined variable $nomor_booking
+in APPPATH\Views\v_member\bayar.php on line 85.
+ 1 APPPATH\Views\v_member\bayar.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor_booking', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 5 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:41:11 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(89): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:42:44 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(82): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:48:52 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:50:03 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:50:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 88.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(80): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:51:40 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(89): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:52:49 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(88): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:52:57 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(88): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:53:04 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 87.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(88): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:54:36 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 88.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(88): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 07:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 07:58:31 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 88.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(82): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 08:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 08:01:45 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\v_member\bayar.php on line 88.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 4 APPPATH\Controllers\Proses.php(82): view('v_member/bayar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 08:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 08:05:45 --> ErrorException: Undefined variable $tmassage
+in APPPATH\Views\v_member\bayar.php on line 90.
+ 1 APPPATH\Views\v_member\bayar.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tmassage', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php', 90)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 5 APPPATH\Controllers\Proses.php(82): view('v_member/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 08:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 08:40:18 --> ErrorException: Undefined variable $batasWaktu
+in APPPATH\Views\v_member\bayar.php on line 122.
+ 1 APPPATH\Views\v_member\bayar.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batasWaktu', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 5 APPPATH\Controllers\Proses.php(82): view('v_member/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 08:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 08:40:50 --> ErrorException: Undefined variable $batasWaktu
+in APPPATH\Views\v_member\bayar.php on line 122.
+ 1 APPPATH\Views\v_member\bayar.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batasWaktu', 'D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\spamassage\\app\\Views\\v_member\\bayar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_member/bayar', [], true)
+ 5 APPPATH\Controllers\Proses.php(92): view('v_member/bayar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Proses->show('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\spamassage\\public\\index.php')
+INFO - 2024-02-18 08:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 08:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 09:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:05:42 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\spamassage\system\Email\Email.php:1746
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\xampp\\htdocs...', 1746)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1746): mail('kingbercisk@gma...', '=?UTF-8?Q?Reset...', '<p>Kami menerim...', 'Date: Sun, 18 F...')
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(49): CodeIgniter\Email\Email->send()
+#5 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-18 10:05:42 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:05:42 --> 
+INFO - 2024-02-18 10:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:10:47 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\spamassage\system\Email\Email.php:1746
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\xampp\\htdocs...', 1746)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1746): mail('berlinbercisk23...', '=?UTF-8?Q?Reset...', '<p>Kami menerim...', 'Date: Sun, 18 F...')
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(50): CodeIgniter\Email\Email->send()
+#5 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-18 10:10:47 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:10:47 --> 
+INFO - 2024-02-18 10:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:15:47 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in D:\xampp\htdocs\spamassage\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'D:\\xampp\\htdocs...', 1890)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1890): fsockopen('ssl://smtp.gmai...', 25, NULL, NULL, 5)
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(50): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-18 10:15:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:15:47 --> 
+INFO - 2024-02-18 10:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:28:54 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in D:\xampp\htdocs\spamassage\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'D:\\xampp\\htdocs...', 1890)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1890): fsockopen('ssl://smtp.gmai...', 25, NULL, NULL, 5)
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(51): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-18 10:28:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:28:54 --> 
+INFO - 2024-02-18 10:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:35:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in D:\xampp\htdocs\spamassage\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'D:\\xampp\\htdocs...', 1890)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1890): fsockopen('ssl://smtp.gmai...', 25, NULL, NULL, 5)
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(52): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-18 10:35:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:35:03 --> 
+INFO - 2024-02-18 10:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:37:08 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in D:\xampp\htdocs\spamassage\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'D:\\xampp\\htdocs...', 1890)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1890): fsockopen('ssl://smtp.gmai...', 25, NULL, NULL, 5)
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(53): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-18 10:37:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:37:08 --> 
+INFO - 2024-02-18 10:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 10:43:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in D:\xampp\htdocs\spamassage\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'D:\\xampp\\htdocs...', 1890)
+#1 D:\xampp\htdocs\spamassage\system\Email\Email.php(1890): fsockopen('ssl://smtp.gmai...', 25, NULL, NULL, 5)
+#2 D:\xampp\htdocs\spamassage\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp\htdocs\spamassage\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp\htdocs\spamassage\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp\htdocs\spamassage\app\Controllers\ForgotPassword.php(63): CodeIgniter\Email\Email->send()
+#6 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(941): App\Controllers\ForgotPassword->create()
+#7 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#8 D:\xampp\htdocs\spamassage\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\spamassage\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\spamassage\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2024-02-18 10:43:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-18 10:43:02 --> 
+INFO - 2024-02-18 10:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 10:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

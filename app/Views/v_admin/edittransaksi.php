@@ -38,16 +38,16 @@
                                     <label for="keterangan">Keterangan:</label>
                                     <select name="keterangan" class="form-control">
                                         <option selected disabled>Keterangan</option>
-                                        <option value="Bookingan anda berhasil, untuk info selanjutnya silahkan hubungi terapis yang berkaitan.">Bookingan anda berhasil, untuk info selanjutnya silahkan hubungi terapis yang berkaitan.</option>
-                                        <option value="Silahkan untuk melakukan pembayaran ke rekening yang tersedia.">Silahkan untuk melakukan pembayaran ke rekening yang tersedia.</option>
+                                        <option value="Bookingan anda berhasil, untuk info selanjutnya silahkan hubungi terapis yang berkaitan." <?= ($transaksi['keterangan'] == 'Bookingan anda berhasil, untuk info selanjutnya silahkan hubungi terapis yang berkaitan.') ? 'selected' : ''; ?>>Bookingan anda berhasil, untuk info selanjutnya silahkan hubungi terapis yang berkaitan.</option>
+                                        <option value="Silahkan untuk melakukan pembayaran ke rekening yang tersedia." <?= ($transaksi['keterangan'] == 'Silahkan untuk melakukan pembayaran ke rekening yang tersedia.') ? 'selected' : ''; ?>>Silahkan untuk melakukan pembayaran ke rekening yang tersedia.</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="status_transaksi">Status Transaksi:</label>
                                     <select name="status_transaksi" class="form-control">
                                         <option selected disabled>Status Transaksi:</option>
-                                        <option value="Berhasil">Berhasil</option>
-                                        <option value="Gagal">Gagal</option>
+                                        <option value="Berhasil" <?= ($transaksi['status_transaksi'] == 'Berhasil') ? 'selected' : ''; ?>>Berhasil</option>
+                                        <option value="Gagal" <?= ($transaksi['status_transaksi'] == 'Gagal') ? 'selected' : ''; ?>>Gagal</option>
                                     </select>
                                 </div>
 

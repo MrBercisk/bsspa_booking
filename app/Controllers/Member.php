@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\UserModel;
+use App\Models\TransaksiModel;
 
 
 class Member extends ResourceController
@@ -11,6 +12,7 @@ class Member extends ResourceController
     protected $encrypter;
     protected $form_validation;
     protected $user;
+    protected $transaksi;
     protected $session;
 
 
@@ -19,6 +21,7 @@ class Member extends ResourceController
         $this->encrypter = \Config\Services::encrypter();
         $this->form_validation =  \Config\Services::validation();
         $this->user = new UserModel();
+        $this->transaksi = new TransaksiModel();
         $this->session = \Config\Services::session();
     }
 
@@ -29,19 +32,23 @@ class Member extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
-
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-        $data['title'] = "BSpa | Member";
-
         $user_id = $this->session->get('id');
-        $user = $this->user
-            ->join('user_role', 'user_role.id = user.role_id')
-            ->select('user.*, user_role.role')
-            ->where('user.id', $user_id)
-            ->findAll();
 
-        $data['user'] = $user;
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' =>  $this->session->get('email'),
+            'page' => "member",
+            'title' =>"BSpa | Member" ,
+            'user' => $this->user->getByUserId($user_id),
+            'transaksi' => $this->transaksi->getByUserId($user_id)
+        ];
+
+        $transaksiBaru = $this->transaksi->getTransaksiBaru($user_id);
+
+        if($transaksiBaru > 0) {
+            $data['notifikasi'] = '<span   id="notificationBadge" class="badge badge-danger">' . $transaksiBaru . ' Transaksi</span>';
+        }
+    
 
         return view('v_member/index', $data);
     }

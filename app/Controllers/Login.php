@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use CodeIgniter\RESTful\ResourceController;
+use \Firebase\JWT\JWT;
 
 class Login extends ResourceController
 {
@@ -76,6 +77,7 @@ class Login extends ResourceController
 		$this->session->setFlashdata('sweet_alert', json_encode(['error' => true, 'message' => 'Email tidak terdaftar']));
 		return redirect()->to(base_url('login'));
 	}
+
 
 
 	public function logout()

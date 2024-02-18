@@ -32,29 +32,20 @@ class User extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
-
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-        // Fetch users with role_id = 2
         $users = $this->user->where('role_id', 2)->findAll();
-
-        // Pass the data to the view
-        $data['users'] = $users;
-        $data['title'] = "BSpa | Data Member";
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'title' => "BSpa | Data Member",
+            'users' => $users
+        ];
+        
         return view('v_admin/datamember', $data);
     }
 
     public function show($id = null)
     {
-        // Cek apakah session 'nama' dan 'email' sudah ada
-        if (!$this->session->has('nama') || !$this->session->has('email')) {
-            // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
-            return redirect()->to(base_url('login'));
-        }
-    
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-    
+       
         // Mengambil data dari UserModel berdasarkan ID
         $users = $this->user->where('role_id', 2)->find($id);
     

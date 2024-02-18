@@ -41,9 +41,9 @@
                   <div class="mt-3 text-center">
                     <button class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" type="submit">Login</a>
                   </div>
-                  <div class="text-center mt-4 font-weight-light"> Belum memiliki akun? <a href="<?= base_url('daftar'); ?>" class="text-primary">Daftar</a>
-                    <div class="text-center mt-4 font-weight-light"><a href="<?= base_url('home'); ?>" class="text-primary"><i class="fas fa-arrow-left"></i> Halaman Utama</a>
-                    </div>
+                  <div class="text-center mt-4 font-weight-light"> Belum memiliki akun? <a href="<?= base_url('daftar'); ?>" class="text-primary">Daftar</a></div>
+                  <div class="text-center mt-4 font-weight-light"><a href="<?= base_url('home'); ?>" class="text-primary"><i class="fas fa-arrow-left"></i> Halaman Utama</a></div>
+                  <!-- <div class="text-center mt-4 font-weight-light"><a href="<?= base_url('ForgotPassword') ?>">Lupa Password?</a></div> -->
                 </form>
             </div>
           </div>

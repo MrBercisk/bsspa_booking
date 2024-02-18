@@ -45,37 +45,14 @@ class Laporan extends ResourceController
             return redirect()->to(base_url('login'));
         }
 
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-
-        $booking = $this->booking
-            ->join('user', 'user.id = booking.user_id')
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->select('booking.*, user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga')
-            ->join('transaksi', 'transaksi.booking_id = booking.id', 'left') // Gunakan 'left' untuk LEFT JOIN
-            ->where('transaksi.booking_id IS NULL', null, false) // Eksklusikan catatan di mana booking_id sudah ada di transaksi
-            ->findAll();
-
-        // Kirimkan data ke view
-        $data['booking'] = $booking;
-
-
-
-        $transaksi = $this->transaksi
-            ->join('booking', 'booking.id = transaksi.booking_id')
-            ->join('user', 'user.id = booking.user_id')
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->join('terapis', 'terapis.id = transaksi.terapis_id')
-            ->select('transaksi.*, booking.nomor_booking, booking.tanggal_booking, user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga, terapis.nama_terapis, terapis.no_hp')
-            ->where('status_booking', 'Selesai')
-            ->findAll();
-        /* Massage list */
-        $data['transaksi'] = $transaksi;
-
-        $data['massage_list'] = $this->massage->findAll();
-
-
-        $data['title'] = "BSpa | Transaksi";
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'massage_list' => $this->massage->findAll(),
+            'transaksi' => $this->transaksi->getTransaksiData(),
+            'booking' => $this->booking->getBookingData(),
+            'title' => "BSpa | Transaksi",
+        ];
 
         return view('v_admin/historytransaksi', $data);
     }
@@ -87,25 +64,16 @@ class Laporan extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
-
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-
-        // Menggunakan $id sebagai nilai booking_id
-        $transaksi = $this->transaksi
-            ->join('booking', 'booking.id = transaksi.booking_id')
-            ->join('user', 'user.id = booking.user_id')
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->join('terapis', 'terapis.id = transaksi.terapis_id')
-            ->select('transaksi.*, booking.nomor_booking, booking.tanggal_booking, user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga,massage_list.diskon, terapis.nama_terapis, terapis.no_hp')
-            ->where('status_booking', 'Selesai')
-            ->where('transaksi.id', $id)
-            ->first(); 
-        $data['transaksi'] = $transaksi;
-        /* dd($transaksi); */
+        $data = [
+            'nama' =>  $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'transaksi' => $this->transaksi->getTransaksiId($id),
+            'terapis' => $this->terapis->findAll(),
+            'title' => "BSpa | Proses Transaksi"
+        ];
 
         $confirm = $this->booking->find($id);
-        /* dd($confirm); */
+
         $data['konfirmasi'] = $confirm;
         if ($confirm) {
             $massage_id = $confirm['massage_id'];
@@ -130,9 +98,6 @@ class Laporan extends ResourceController
             $data['harga']          = null;
             $data['diskon']          = null;
         }
-        $data['terapis'] = $this->terapis->findAll();
-
-        $data['title'] = "BSpa | Proses Transaksi";
 
         // Mengembalikan data dalam format JSON
         return view('v_admin/edittransaksi', $data);
@@ -181,7 +146,7 @@ class Laporan extends ResourceController
                 'id' => $id,
                 'status_transaksi' => $this->request->getVar('status_transaksi'),
             ];
-            
+
             // Melakukan update data
             $transaksi = $this->transaksi->save($data);
 
@@ -198,5 +163,21 @@ class Laporan extends ResourceController
 
         return $this->failNotFound('Sorry! no user found');
     }
+    public function cetak()
+    {
+        // Pass the data to the view
+        $data['transaksi'] = $this->transaksi->getTransaksiData();
+        
+        //Cetak dengan dompdf
+        $dompdf = new \Dompdf\Dompdf();
+        $options = new \Dompdf\Options();
+        $options->setIsRemoteEnabled(true);
 
+        $dompdf->setOptions($options);
+        $dompdf->output();
+        $dompdf->loadHtml(view('v_admin/cetaktransaksi', $data));
+        $dompdf->setPaper('A4', 'landscape');
+        $dompdf->render();
+        $dompdf->stream('laporantransaksi.pdf', array("Attachment" => false));
+    }
 }

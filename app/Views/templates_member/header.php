@@ -44,10 +44,9 @@
                             <!--change to offline or busy as needed-->
                         </div>
                         <div class="nav-profile-text d-flex flex-column">
-                            <?php foreach ($user as $users) : ?>
-                                <span class="font-weight-bold mb-2"><?= $nama; ?></span>
-                                <span class="text-secondary text-small"><?= $users['role']; ?></span>
-                            <?php endforeach; ?>
+
+                            <span class="font-weight-bold mb-2"><?= $nama; ?></span>
+                            <span class="text-secondary text-small">member</span>
                         </div>
                     </a>
                 </li>
@@ -64,11 +63,22 @@
                     </a>
                 </li>
                 <li class="nav-item">
+
                     <a class="nav-link" href="<?php echo base_url('proses'); ?>">
-                        <span class="menu-title">Transaksi Massage</span>
+                        <span class="menu-title">Transaksi
+                            <?php
+
+                            if (isset($notifikasi)) {
+                                echo $notifikasi;
+                            }
+                            ?>
+                        </span>
                         <i class="mdi mdi-credit-card menu-icon"></i>
+
                     </a>
+
                 </li>
+
                 <li class="nav-item">
                     <a href="<?php echo base_url('login/logout'); ?>" class="nav-link">
                         <span class="menu-title">Logout</span>

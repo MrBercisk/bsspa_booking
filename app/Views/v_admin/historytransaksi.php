@@ -25,10 +25,14 @@
         </div>
         <div class="uk-alert-primary" uk-alert>
             <a href class="uk-alert-close" uk-close></a>
-            <h5>Petunjuk Penggunaan : Klik di mana saja pada kolom tabel untuk merubah data yang di pilih.</h5>
+            <h5>Silahkan untuk mengupdate transaksi member.</h5>
         </div>
         <div class="row">
             <div class="col-12 grid-margin">
+                <a href="<?php echo site_url('laporan/cetak'); ?>" class="btn btn-danger mb-3">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    Cetak PDF
+                </a>
                 <div class="card">
                     <div class="card-body">
                         <div class="uk-overflow-auto">
@@ -74,7 +78,16 @@
                                             <a class="uk-link-reset" href="<?= base_url('laporan/show/' . $tmassage['id']); ?>"><?= $tmassage['tanggal_transaksi']; ?></a>
                                         </td>
                                         <td class="uk-table-link">
-                                            <a class="uk-link-reset" href="<?= base_url('laporan/show/' . $tmassage['id']); ?>"><?= $tmassage['status_transaksi']; ?></a>
+                                            <a class="uk-link-reset" href="<?= base_url('laporan/show/' . $tmassage['id']); ?>">
+                                                <?php if ($tmassage['status_transaksi'] == 'Berhasil') : ?>
+                                                    <span class="badge bg-success"><?= $tmassage['status_transaksi']; ?></span>
+                                                <?php elseif ($tmassage['status_transaksi'] == 'Pending') : ?>
+                                                    <span class="badge bg-warning"><?= $tmassage['status_transaksi']; ?></span>
+                                                <?php elseif ($tmassage['status_transaksi'] == 'Gagal') : ?>
+                                                    <span class="badge bg-danger"><?= $tmassage['status_transaksi']; ?></span>
+                                                <?php else : ?>
+                                                    <?= $tmassage['status_transaksi']; ?>
+                                                <?php endif; ?>
                                         </td>
                                         <td class="uk-table-link">
                                             <a class="uk-link-reset" href="<?= base_url('laporan/show/' . $tmassage['id']); ?>"><?= $tmassage['total_bayar']; ?></a>

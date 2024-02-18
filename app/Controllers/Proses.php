@@ -46,32 +46,15 @@ class Proses extends ResourceController
         }
 
         $user_id = $this->session->get('id');
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
 
-        $transaksi = $this->transaksi
-            ->join('booking', 'booking.id = transaksi.booking_id')
-            ->join('user', 'user.id = booking.user_id')
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->join('terapis', 'terapis.id = transaksi.terapis_id')
-            ->select('transaksi.*, booking.nomor_booking, booking.tanggal_booking,  user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga, terapis.nama_terapis, terapis.no_hp')
-            ->where('user.id', $user_id) 
-            ->where('status_booking', 'Selesai')
-            ->findAll();
-
-        /* Massage list */
-        $data['transaksi'] = $transaksi;
-        $user = $this->user
-            ->join('user_role', 'user_role.id = user.role_id')
-            ->select('user.*, user_role.role')
-            ->where('user.id', $user_id)
-            ->findAll();
-
-        $data['user'] = $user;
-
-        $data['massage_list'] = $this->massage->findAll();
-
-        $data['title'] = "BSpa | Proses Transaksi";
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'title' => "BSpa | Proses Transaksi",
+            'transaksi' => $this->transaksi->getByUserId($user_id),
+            'user' => $this->user->getByUserId($user_id),
+            'massage_list' => $this->massage->findAll()
+        ];
 
         return view('v_member/proses', $data);
     }
@@ -85,27 +68,17 @@ class Proses extends ResourceController
             return redirect()->to(base_url('login'));
         }
         $user_id = $this->session->get('id');
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
 
-        $transaksi = $this->transaksi
-        ->join('booking', 'booking.id = transaksi.booking_id')
-        ->join('user', 'user.id = booking.user_id')
-        ->join('massage_list', 'massage_list.id = booking.massage_id')
-        ->join('terapis', 'terapis.id = transaksi.terapis_id')
-        ->select('transaksi.*, booking.nomor_booking, booking.tanggal_booking, massage_list.diskon, user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga, terapis.nama_terapis, terapis.no_hp')
-        ->where('user.id', $user_id) // Menambahkan kondisi where untuk user_id saat itu saja
-        ->where('status_booking', 'Selesai')
-        ->findAll();
-        
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'title' => "BSpa | Detail Transaksi",
+            'transaksi' => $this->transaksi->getTransaksiIdProses($id),
+            'terapis' => $this->terapis->findAll()
+        ];
+        /* dd($data); */
 
-        $data['transaksi'] = $transaksi;
 
-        $data['terapis'] = $this->terapis->findAll();
-
-        $data['title'] = "BSpa | Proses Transaksi";
-
-        // Mengembalikan data dalam format JSON
         return view('v_member/bayar', $data);
     }
 }

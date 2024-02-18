@@ -36,33 +36,20 @@ class DataBooking extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
-
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-
-        $booking = $this->booking
-            ->join('user', 'user.id = booking.user_id')
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->select('booking.*, user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga')
-            ->findAll();
-
-        // Pass the data to the view
-        $data['booking'] = $booking;
-        $data['title'] = "BSpa | Data Booking";
-
+        $data = [
+            'nama' =>  $this->session->get('nama'),
+            'email' =>  $this->session->get('email'),
+            'title' => "BSpa | Data Booking",
+            'booking' =>  $this->booking->getAllBookingData()
+        ];
         return view('v_admin/databooking', $data);
     }
 
     public function cetak()
     {
-        $booking = $this->booking
-            ->join('user', 'user.id = booking.user_id')
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->select('booking.*, user.nama, user.jenis_kelamin, massage_list.jenis_massage, massage_list.harga')
-            ->findAll();
-
         // Pass the data to the view
-        $data['booking'] = $booking;
+        $data['booking'] = $this->booking->getAllBookingData();
+        
         //Cetak dengan dompdf
         $dompdf = new \Dompdf\Dompdf();
         $options = new \Dompdf\Options();

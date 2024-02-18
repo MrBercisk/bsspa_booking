@@ -38,8 +38,8 @@
                                 <div class="form-group">
                                     <label for="status">Status Member:</label>
                                     <select name="status" id="status" class="form-control">
-                                        <option value="Aktif">Aktif</option>
-                                        <option value="Tidak Aktif">Tidak Aktif</option>
+                                        <option value="Aktif" <?= ($users['status'] == 'Aktif') ? 'selected' : ''; ?>>Aktif</option>
+                                        <option value="Tidak Aktif" <?= ($users['status'] == 'Tidak Aktif') ? 'selected' : ''; ?>>Tidak Aktif</option>
                                     </select>
                                 </div>
 

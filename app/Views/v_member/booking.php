@@ -18,13 +18,17 @@
             <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item active" aria-current="page">
-                    <span><a href="<?= base_url('member'); ?>" style='text-decoration : none;'>Dashboard</a></span>/Booking <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                        <span><a href="<?= base_url('member'); ?>" style='text-decoration : none;'>Dashboard</a></span>/Booking <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="row">
             <div class="col-12 grid-margin">
+                <div class="uk-alert-primary" uk-alert>
+                    <a href class="uk-alert-close" uk-close></a>
+                    <h5>Silahkan setelah selesai booking tunggu sampai di proses Admin dan cek halaman Transaksi.</h5>
+                </div>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">History Booking Anda</h4>

@@ -7,6 +7,7 @@ use CodeIgniter\API\ResponseTrait;
 use App\Models\BookingModel;
 use App\Models\UserModel;
 use App\Models\MassageModel;
+use App\Models\TransaksiModel;
 use Config\Services;
 
 
@@ -15,7 +16,8 @@ class Booking extends ResourceController
     use ResponseTrait;
     protected $booking;
     protected $user;
-    protected $massage;
+    protected $massage; 
+    protected $transaksi;
     protected $session;
     protected $request;
     protected $form_validation;
@@ -26,6 +28,7 @@ class Booking extends ResourceController
         $this->booking = new BookingModel();
         $this->user = new UserModel();
         $this->massage = new MassageModel();
+        $this->transaksi = new TransaksiModel();
         $this->session = \Config\Services::session();
         $this->request = Services::request();
         $this->form_validation =  \Config\Services::validation();
@@ -38,36 +41,22 @@ class Booking extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
+        $user_id = $this->session->get('id'); 
 
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'title' => "BSpa | Booking",
+            'data_booking' => $this->booking->getByUserId($user_id),
+            'massage_list' => $this->massage->findAll(),
+            'jadwal' => $this->booking->findAll(),  
+            'user' => $this->user->getByUserId($user_id)  
+        ];
+        $transaksiBaru = $this->transaksi->getTransaksiBaru($user_id);
 
-        // Mengambil data booking berdasarkan ID yang login saat itu
-        $user_id = $this->session->get('id'); // Sesuaikan dengan nama session atau kolom yang menyimpan user_id
-        $data_booking = $this->booking
-            ->join('massage_list', 'massage_list.id = booking.massage_id')
-            ->select('booking.*, massage_list.jenis_massage, massage_list.harga')
-            ->where('user_id', $user_id)->findAll();
-        $data['data_booking'] = $data_booking;
-
-        /* Massage list */
-
-        $data['massage_list'] = $this->massage->findAll();
-
-        /* Semua tanggal yang telah tersedia */
-        $jadwal = $this->booking->findAll();
-        $data['jadwal'] = $jadwal;
-
-        $user = $this->user
-            ->join('user_role', 'user_role.id = user.role_id')
-            ->select('user.*, user_role.role')
-            ->where('user.id', $user_id)
-            ->findAll();
-
-        $data['user'] = $user;
-
-        $data['title'] = "BSpa | Booking";
-
+        if($transaksiBaru > 0) {
+            $data['notifikasi'] = '<span   id="notificationBadge" class="badge badge-danger">' . $transaksiBaru . ' Transaksi</span>';
+        }
         return view('v_member/booking', $data);
     }
 
@@ -78,12 +67,11 @@ class Booking extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
+        $user_id = $this->session->get('id');
 
         $data['nama']  = $this->session->get('nama');
         $data['email'] = $this->session->get('email');
-
-        // Mengambil data booking berdasarkan ID yang login saat itu
-        $user_id = $this->session->get('id');
+        
 
         $confirm = $this->booking->find($id);
         $data['konfirmasi'] = $confirm;

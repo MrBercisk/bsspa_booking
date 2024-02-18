@@ -40,10 +40,10 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="jenis_kelamin">Jenis Kelamin:</label>
-                                    <select name="jenis_kelamin" id="jenis_kelamin" class="form-select form-select-md" id="exampleInputEmail1">
-                                        <option selected disabled>Jenis Kelamin</option>
-                                        <option value="Laki-laki">Laki-laki</option>
-                                        <option value="Perempuan">Perempuan</option>
+                                    <select name="jenis_kelamin" id="jenis_kelamin" class="form-select form-select-md" id="exampleInputEmail1" required>
+                                        <option disabled>Jenis Kelamin</option>
+                                        <option value="Laki-laki" <?= ($terapis['jenis_kelamin'] == 'Laki-laki') ? 'selected' : ''; ?>>Laki-laki</option>
+                                        <option value="Perempuan" <?= ($terapis['jenis_kelamin'] == 'Perempuan') ? 'selected' : ''; ?>>Perempuan</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -56,10 +56,10 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="status_pernikahan">Status Pernikahan:</label>
-                                    <select name="status_pernikahan" id="status_pernikahan" class="form-select form-select-md" value="<?= $terapis['status_pernikahan']; ?>">
+                                    <select name="status_pernikahan" id="status_pernikahan" class="form-select form-select-md">
                                         <option selected disabled>Status Pernikahan</option>
-                                        <option value="Menikah">Menikah</option>
-                                        <option value="Belum Menikah">Belum Menikah</option>
+                                        <option value="Menikah" <?= ($terapis['status_pernikahan'] == 'Menikah') ? 'selected' : ''; ?>>Menikah</option>
+                                        <option value="Belum Menikah" <?= ($terapis['status_pernikahan'] == 'Belum Menikah') ? 'selected' : ''; ?>>Belum Menikah</option>
                                     </select>
                                 </div>
                                 <div class="form-group">

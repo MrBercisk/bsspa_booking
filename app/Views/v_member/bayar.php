@@ -80,44 +80,44 @@
         <img src="<?= base_url('assets/images/logo1.png') ?>" alt="Logo" class="logo">
         <h2>Pembayaran Bank Transfer</h2>
 
-        <?php foreach ($transaksi as $tmassage) : ?>
             <div class="payment-info">
                 <div class="info-row">
                     <div class="info-label">Nomor Booking</div>
-                    <div class="info-value"><?= $tmassage['nomor_booking']; ?></div>
+                    <div class="info-value"><?= $transaksi['nomor_booking']; ?></div>
                 </div>
                 <div class="info-row">
                     <div class="info-label">Nama Member</div>
-                    <div class="info-value"><?= $tmassage['nama']; ?></div>
+                    <div class="info-value"><?= $transaksi['nama']; ?></div>
                 </div>
                 <div class="info-row">
                     <div class="info-label">Jenis Massage</div>
-                    <div class="info-value"><?= $tmassage['jenis_massage']; ?></div>
+                    <div class="info-value"><?= $transaksi['jenis_massage']; ?></div>
                 </div>
                 <div class="info-row">
                     <div class="info-label">Status Transaksi</div>
-                    <div class="info-value"><?= $tmassage['status_transaksi']; ?></div>
+                    <div class="info-value"><?= $transaksi['status_transaksi']; ?></div>
                 </div>
                 <div class="info-row">
                     <div class="info-label">Tanggal Booking</div>
-                    <div class="info-value"><?= $tmassage['tanggal_booking']; ?></div>
+                    <div class="info-value"><?= $transaksi['tanggal_booking']; ?></div>
                 </div>
                 <div class="info-row">
                     <div class="info-label">Harga Layanan</div>
-                    <div class="info-value"><?= $tmassage['harga']; ?></div>
+                    <div class="info-value"><?= $transaksi['harga']; ?></div>
                 </div>
                 <div class="info-row">
                     <div class="info-label">Total Tagihan</div>
-                    <div class="info-value"><?= $tmassage['total_bayar']; ?> (20% off)</div>
+                    <div class="info-value"><?= $transaksi['total_bayar']; ?> (20% off)</div>
                 </div>
             </div>
-        <?php endforeach; ?>
         <div id="payment-info">
             <p class="payment-info-text">Nomor Rekening:</p>
-            <p id="account-number">#123456789 <br>(a.n. BSDev)</p>
+            <p id="account-number">123456789</p>
+            <p>(a.n. BSDev)</p>
             <button class="copy-button" onclick="copyAccountNumber()">Salin Nomor Rekening</button>
         </div>
-        <p>Silakan lakukan pembayaran</p>
+        <p>Silakan lakukan pembayaran sebelum</p>
+        <div id="countdown"></div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.5/js/uikit.min.js"></script>

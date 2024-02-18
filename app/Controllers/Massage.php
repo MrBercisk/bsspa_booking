@@ -31,15 +31,13 @@ class Massage extends ResourceController
             // Jika tidak ada, mungkin arahkan ke halaman login atau lakukan tindakan lain
             return redirect()->to(base_url('login'));
         }
-
-        $data['nama']  = $this->session->get('nama');
-        $data['email'] = $this->session->get('email');
-        $data['title'] = "BSpa | Massage List";
-
         $massage = $this->massage->findAll();
-
-        // Pass the data to the view
-        $data['massage'] = $massage;
+        $data = [
+            'nama' => $this->session->get('nama'),
+            'email' => $this->session->get('email'),
+            'title' => "BSpa | Massage List",
+            'massage' => $massage
+        ];
 
         return view('massage-list/index', $data);
     }
